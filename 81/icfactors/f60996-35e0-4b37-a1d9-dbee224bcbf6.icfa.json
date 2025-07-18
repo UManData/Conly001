@@ -6,10 +6,46 @@
         "value": 1.0
     },
     "CDD": {
-        "error": 0.0,
-        "fit": "default",
-        "references": [],
-        "value": 1.0
+        "error": 0.0005211264510791771,
+        "fit": "Average",
+        "reference_data": {
+            "es": [
+                0.001977258340525545,
+                0.0020445529491817946,
+                0.002079160819158587
+            ],
+            "vs": [
+                1.118516856562071,
+                1.1183200912100153,
+                1.1175320874684938
+            ],
+            "xs": [
+                1752598698.0,
+                1752609221.0,
+                1752618694.0
+            ]
+        },
+        "reference_detector": "H1",
+        "references": [
+            {
+                "exclude": "ok",
+                "record_id": "a-01-A-9850",
+                "uuid": "d7d5a899-a7d6-4771-969f-99ec84ea0d24"
+            },
+            {
+                "exclude": "ok",
+                "record_id": "a-01-A-9851",
+                "uuid": "793a1aaa-ca8b-41c2-a316-30f03ba85e8f"
+            },
+            {
+                "exclude": "ok",
+                "record_id": "a-01-A-9852",
+                "uuid": "276d2ed7-c113-4b24-83a9-147c812ef115"
+            }
+        ],
+        "reviewed": true,
+        "standard_ratio": 295.5,
+        "value": 1.11812301174686
     },
     "H1": {
         "error": 0.0,
